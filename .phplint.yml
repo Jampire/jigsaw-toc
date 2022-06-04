@@ -1,0 +1,9 @@
+path:
+  - src/
+  - tests/
+no-cache: true
+json: build/phplint.json
+xml: build/phplint.xml
+exclude:
+  - vendor
+warning: true
